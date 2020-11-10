@@ -1,0 +1,88 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: white
+}
+
+.rangka {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.frame {
+    margin: 0 auto;
+    background-color: white;
+    border: 8px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: relative;
+    top: 100px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.konten {
+    
+    padding: 130px 0px 30px 0px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 400px
+}
+
+.isi {
+    widows: 100%;
+}
+
+.bagian-isi {
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    position: relative;
+    height: 350px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 29%;
+    float: left;
+    box-shadow: 0px 0px 20px 1px #d6d6d6;
+}
+
+b {
+    font-size: 14pt;
+}
+
+.sosial {
+    border-radius: 0px;
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+@media (max-width: 1199.98px) {
+    .bagian-isi {
+        border-radius: 10px;
+        background-color: white;
+        margin: 10px;
+        position: relative;
+        height: 350px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        width: 90%;
+        float: left;
+        box-shadow: 0px 0px 20px 1px #d6d6d6;
+    }
+}
